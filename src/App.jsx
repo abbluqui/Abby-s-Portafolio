@@ -578,7 +578,7 @@ const info = {
 
     mediaType: "image",
 
-    src: "/images/dollhead1.png",
+    src: "/images/dollhead1.webppng",
 
   },
 
@@ -588,7 +588,7 @@ const info = {
 
     mediaType: "image",
 
-    src: "/images/EyeClown.png",
+    src: "/images/EyeClown.webp",
 
   },
 
@@ -598,7 +598,7 @@ const info = {
 
     mediaType: "image",
 
-    src: "/images/yo.JPG",
+    src: "/images/yo.webp",
 
   },
 
@@ -608,7 +608,7 @@ const info = {
 
     mediaType: "image",
 
-    src: "/images/Nave_4.png",
+    src: "/images/Nave_4.webp",
 
   },
 
@@ -618,7 +618,7 @@ const info = {
 
     mediaType: "image",
 
-    src: "/images/refri_1.png",
+    src: "/images/refri_1.webp",
 
   },
 
@@ -628,7 +628,7 @@ const info = {
 
     mediaType: "image",
 
-    src: "/images/Payaso1.png",
+    src: "/images/Payaso1.webp",
 
   },
 
@@ -638,7 +638,7 @@ const info = {
 
     mediaType: "image",
 
-    src: "/images/Payaso2.png",
+    src: "/images/Payaso2.webp",
 
   },
 
@@ -648,7 +648,7 @@ const info = {
 
     mediaType: "image",
 
-    src: "/images/Payaso3.png",
+    src: "/images/Payaso3.webp",
 
   },
 
@@ -658,7 +658,7 @@ const info = {
 
     mediaType: "image",
 
-    src: "/images/Angel.png",
+    src: "/images/Angel.webp",
 
   },
 
@@ -668,7 +668,7 @@ const info = {
 
     mediaType: "image",
 
-    src: "/images/Landscape.png",
+    src: "/images/Landscape.webp",
 
   },
 
@@ -678,7 +678,7 @@ const info = {
 
     mediaType: "image",
 
-    src: "/images/Sopart.png",
+    src: "/images/Sopart.webp",
 
   },
 
@@ -933,7 +933,7 @@ return (
         <Rect width={550} height={330} fill="#D1D161" shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
 
         <Text text="Abby's PORTFOLIO" x={10} y={30} fontSize={30} fill="#4965AF" fontFamily="Nanum Pen Script"/>
-        <ImageInKonva src="/images/titulo.png" width={550} height={330} />
+        <ImageInKonva src="/images/titulo.webp" width={550} height={330} />
 
     </Group>
 
@@ -944,7 +944,7 @@ return (
     <Group name="Dragon Fest" x={440} y={50} onClick={() => { const centerWorld = getViewportCenterWorld(); setInfoPosition(centerWorld); setUiScale(1 / centerWorld.scale); handleFrameClick("Dragon Fest"); }}  {...hoverProps("Dragon Fest")}>
         <Text text="Dragon Fest" x={10} y={55} fontSize={10} fill="#4965AF" fontFamily="Quicksand"/>
         <Rect width={320} height={460} fill="#CDDBF9" shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
-        <ImageInKonva src="/images/Poster_df.png" width={320} height={460} />
+        <ImageInKonva src="/images/Poster_df.webp" width={320} height={460} />
 
     </Group>
 
@@ -955,7 +955,7 @@ return (
     <Group name="IVED" x={870} y={350} onClick={() => { const centerWorld = getViewportCenterWorld(); setInfoPosition(centerWorld); setUiScale(1 / centerWorld.scale); handleFrameClick("IVED") }} {...hoverProps("IVED")}>
         <Text text="IVED" x={10} y={55} fontSize={18} fill="#4965AF" fontFamily="Quicksand"/>
         <Rect width={280} height={180} fill="#CDDBF9" shadowColor="#2C2C34" shadowBlur={8} shadowOffsetY={4}/>
-         <ImageInKonva src="/images/ived_frame.png" width={280} height={180} />
+         <ImageInKonva src="/images/ived_frame.webp" width={280} height={180} />
 
     </Group>
 
@@ -969,7 +969,7 @@ return (
 
         <Rect width={350} height={350} fill="#CDDBF9" shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
 
-        <ImageInKonva src="/images/Dollhead_frame.png" width={350} height={350} />
+        <ImageInKonva src="/images/Dollhead_frame.webp" width={350} height={350} />
 
        
 
@@ -985,7 +985,7 @@ return (
 
         <Rect width={500} height={335} fill="#FFFAED" cornerRadius={20} shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
 
-         <ImageInKonva src="/images/Eyeclown_frame.png" width={510} height={335} />
+         <ImageInKonva src="/images/Eyeclown_frame.webp" width={510} height={335} />
 
        
 
@@ -998,7 +998,7 @@ return (
     <Group x={880} y={30} onClick={() => { const centerWorld = getViewportCenterWorld(); setInfoPosition({x:centerWorld.x-200, y:centerWorld.y-230}); setUiScale(1 / centerWorld.scale); handleFrameClick("About me") }}  {...hoverProps("About me")}>
         <Text text="About me" x={10} y={55} fontSize={10} fill="#4965AF" fontFamily="Quicksand"/>
         <Rect width={250} height={250} fill="#CDDBF9" shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
-        <ImageInKonva src="/images/yo_frame.png" width={250} height={250} />
+        <ImageInKonva src="/images/yo_frame.webp" width={250} height={250} />
 
     </Group>
 
@@ -1012,7 +1012,7 @@ return (
 
         <Rect width={460} height={310} fill="#CDDBF9" shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
 
-        <ImageInKonva src="/images/Nave_frame.png" width={460} height={310} />
+        <ImageInKonva src="/images/Nave_frame.webp" width={460} height={310} />
 
        
 
@@ -1028,7 +1028,7 @@ return (
 
         <Rect width={280} height={360} fill="#CDDBF9" shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
 
-         <ImageInKonva src="/images/refri_frame.png" width={280} height={360} />
+         <ImageInKonva src="/images/refri_frame.webp" width={280} height={360} />
 
        
 
@@ -1044,7 +1044,7 @@ return (
 
         <Rect width={350} height={350} fill="#CDDBF9" shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
 
-        <ImageInKonva src="/images/PorcelainDoll_frame.png" width={350} height={350} />
+        <ImageInKonva src="/images/PorcelainDoll_frame.webp" width={350} height={350} />
 
        
 
@@ -1060,7 +1060,7 @@ return (
 
         <Rect width={350} height={350} fill="#CDDBF9" shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
 
-        <ImageInKonva src="/images/SadClown_frame.png" width={350} height={350} />
+        <ImageInKonva src="/images/SadClown_frame.webp" width={350} height={350} />
 
        
 
@@ -1074,7 +1074,7 @@ return (
 
         <Rect width={350} height={350} fill="#CDDBF9" shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
 
-        <ImageInKonva src="/images/PelonClown_frame.png" width={350} height={350} />
+        <ImageInKonva src="/images/PelonClown_frame.webp" width={350} height={350} />
 
         <Text text="Payaso 3" x={10} y={55} fontSize={10} fill="#4965AF" fontFamily="Quicksand"/>
 
@@ -1090,7 +1090,7 @@ return (
 
         <Rect width={350} height={350} fill="#CDDBF9" shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
 
-        <ImageInKonva src="/images/angel_frame.png" width={350} height={350} />
+        <ImageInKonva src="/images/angel_frame.webp" width={350} height={350} />
 
        
 
@@ -1106,7 +1106,7 @@ return (
 
         <Rect width={530} height={360} fill="#CDDBF9" shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
 
-        <ImageInKonva src="/images/Landscape_frame.png" width={530} height={360} />
+        <ImageInKonva src="/images/Landscape_frame.webp" width={530} height={360} />
 
        
 
@@ -1122,7 +1122,7 @@ return (
 
         <Rect width={530} height={360} fill="#CDDBF9" shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
 
-        <ImageInKonva src="/images/Maruchan_frame.png" width={530} height={360} />
+        <ImageInKonva src="/images/Maruchan_frame.webp" width={530} height={360} />
 
        
 
@@ -1135,7 +1135,7 @@ return (
     <Group x={100} y={0} onClick={() => { const centerWorld = getViewportCenterWorld(); setInfoPosition({x:centerWorld.x-200, y:centerWorld.y-230}); setUiScale(1 / centerWorld.scale); handleFrameClick("Cocacolastic") }}  {...hoverProps("Cocacolastic")}>
         <Text text="Cocacolastic" x={10} y={55} fontSize={10} fill="#4965AF" fontFamily="Quicksand"/>
         <Rect width={250} height={350} fill="#CDDBF9" shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
-         <ImageInKonva src="/images/cocacola_frame.png" width={250} height={350} />
+         <ImageInKonva src="/images/cocacola_frame.webp" width={250} height={350} />
 
        
 
@@ -1150,7 +1150,7 @@ return (
         <Rect width={250} height={160} fill="#CDDBF9" shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
 
         <Text text="Mosaico" x={10} y={55} fontSize={10} fill="#4965AF" fontFamily="Quicksand"/>
-        <ImageInKonva src="/images/mosaico.png" width={250} height={160} />    
+        <ImageInKonva src="/images/mosaico.webp" width={250} height={160} />    
     </Group>
 
 
@@ -1160,7 +1160,7 @@ return (
     <Group x={1210} y={350} >   
         <Text text="Tuto" x={10} y={55} fontSize={10} fill="#4965AF" fontFamily="Quicksand"/>
         <Rect width={150} height={150} fill="#CDDBF9" shadowColor="#2C2C34" shadowBlur={8}shadowOffsetY={4}/>
-        <ImageInKonva src="/images/tuto.png" width={150} height={150} />
+        <ImageInKonva src="/images/tuto.webp" width={150} height={150} />
     </Group>
 
 
@@ -1176,7 +1176,7 @@ return (
     {/*flores 2*/}
 
     <Group x={1210} y={0}>
-        <ImageInKonva src="/images/ramo.png" width={200} height={310} />
+        <ImageInKonva src="/images/ramo.webp" width={200} height={310} />
 
     </Group>
 
@@ -1339,7 +1339,7 @@ return (
     fontFamily="Quicksand"
   />
  <ImageInKonva 
-    src="/images/vinilo.png" 
+    src="/images/vinilo.webp" 
     width={310} 
     height={310} 
     rotation={vinylRotation}
@@ -1351,17 +1351,17 @@ return (
 </Group>
 
 <Group x={1080} y={670}>
-   <ImageInKonva src="/images/notita.png" width={200} height={130} offsetX={110} offsetY={110} />
+   <ImageInKonva src="/images/notita.webp" width={200} height={130} offsetX={110} offsetY={110} />
 
 </Group>
 
 <Group x={1080} y={750}>
-   <ImageInKonva src="/images/libi.png" width={110} height={150} />
+   <ImageInKonva src="/images/libi.webp" width={110} height={150} />
 
 </Group>
 
 <Group x={1815} y={370}>
-   <ImageInKonva src="/images/gaara.png" width={110} height={150} />
+   <ImageInKonva src="/images/gaara.webp" width={110} height={150} />
 
 </Group>
   
@@ -1379,7 +1379,7 @@ return (
     <Group x={1940} y={50}  {...hoverProps("IG")}>
 
       <Text text="IG" x={10} y={10} fontSize={18} fill="#4965AF" fontFamily="Quicksand"/>
-      <ImageInKonva src="/images/ig.png" width={180} height={180}
+      <ImageInKonva src="/images/ig.webp" width={180} height={180}
       onClick={() => window.open("https://www.instagram.com/abbluqui/")}
       /> 
 
@@ -1395,7 +1395,7 @@ return (
     <Group x={2160} y={50}  {...hoverProps("Gmail")}>
 
       <Text text="Gmail" x={10} y={10} fontSize={10} fill="#4965AF" fontFamily="Quicksand"/>
-      <ImageInKonva src="/images/gmail.png" width={180} height={180} 
+      <ImageInKonva src="/images/gmail.webp" width={180} height={180} 
         onClick={() => (window.location.href = "mailto:tu-abbyluques1@gmail.com")} />
 
        
@@ -1410,7 +1410,7 @@ return (
 
       <Text text="LinkedIn" x={10} y={10} fontSize={10} fill="#4965AF" fontFamily="Quicksand"/>
 
-        <ImageInKonva src="/images/linkin.png" width={180} height={180} 
+        <ImageInKonva src="/images/linkin.webp" width={180} height={180} 
           onClick={() => window.open("https://www.linkedin.com/in/abby-luques-086b89326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app", "_blank")} />
 
        
@@ -1423,7 +1423,7 @@ return (
 
     <Group x={2570} y={0}>
        
-        <ImageInKonva src="/images/florero.png" width={150} height={240} />
+        <ImageInKonva src="/images/florero.webp" width={150} height={240} />
 
     </Group>
 
@@ -1435,7 +1435,7 @@ return (
 
       <Text text="Holi" x={55} y={7} fontSize={12} fill="#4965AF" fontFamily="Nanum pen script"/>
 
-         <ImageInKonva src="/images/tiquito.png" width={130} height={130} />
+         <ImageInKonva src="/images/tiquito.webp" width={130} height={130} />
 
     </Group>
 
@@ -1446,7 +1446,7 @@ return (
     <Group x={1880} y={220}>
 
         <Text text="estante" x={10} y={5} fontSize={10} fill="#4965AF" fontFamily="Quicksand"/>
-         <ImageInKonva src="/images/estante.png" width={1000} height={175} />
+         <ImageInKonva src="/images/estante.webp" width={1000} height={175} />
 
     </Group>
 
