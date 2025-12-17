@@ -578,7 +578,7 @@ const info = {
 
     mediaType: "image",
 
-    src: "/images/dollhead1.webppng",
+    src: "/images/dollhead1.webp",
 
   },
 
